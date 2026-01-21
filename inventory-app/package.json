@@ -1,0 +1,27 @@
+{
+  "name": "inventory-app",
+  "version": "1.0.0",
+  "description": "Sistem Pendataan Barang (Inventory) MVC Sequelize JWT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "migrate": "npx sequelize db:migrate",
+    "seed": "npx sequelize db:seed:all"
+  },
+  "author": "Mahasiswa IF",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "sequelize-cli": "^6.6.2"
+  }
+}
